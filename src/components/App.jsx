@@ -1,20 +1,15 @@
 import user from "./user.json";
+import data from './data.json';
 import { Profile } from './Profile/Profile'
+import { Statistics } from "./Statistics/Statistics";
+import css from "./App.module.css"
 
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'block',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      <div>React homework template</div>
+    <div className={css.main}>
+      <h1>React homework template</h1>
+      <div className={css.taskContainer}>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -22,6 +17,10 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-    </div>
+      <Statistics
+        title="Upload stats"
+        stats={data} />
+      </div>
+      </div>
   );
 };
