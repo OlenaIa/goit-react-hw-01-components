@@ -1,0 +1,14 @@
+.transactionHistory {
+    max-width: 722px;
+    width: 100%;
+    border: 1px solid #8afabd;
+}
+
+.row {
+    background-color: rgb(135, 247, 213);
+}
+
+.cell {
+    border: 3px solid #8afabd;
+    padding: 5px;
+}

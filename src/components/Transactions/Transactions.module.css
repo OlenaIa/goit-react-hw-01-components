@@ -1,0 +1,8 @@
+.line:nth-child(even) {
+    background: #bdf8e9;
+}
+
+.cell {
+    border: 1px solid #8afabd;
+    padding: 5px;
+}
