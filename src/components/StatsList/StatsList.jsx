@@ -1,9 +1,6 @@
 import PropTypes from "prop-types";
 import css from "./StatsList.module.css"
-
-function makeGreen() {
-    return `rgb(0, ${Math.floor(Math.random() * 256)}, 0)`
-}
+import { makeGreen } from "./makeGreen";
  
 export const StatsList = ({ stats }) => {
     return (

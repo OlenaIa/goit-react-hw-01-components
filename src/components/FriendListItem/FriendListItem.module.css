@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.status {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
